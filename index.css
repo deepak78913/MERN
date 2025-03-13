@@ -1,0 +1,502 @@
+
+.order{
+  width: 100%;
+  height: 30px;
+  margin: auto;
+  margin: 0px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+}
+.order p{
+  font-size: 12px;
+  font-weight: 500;
+  margin: 10px;
+}
+.container{
+  width: 100%;
+  height: 50px;
+}
+.grid{
+  display: grid;
+}
+ .navbar{
+  margin: 10 140px;
+} 
+
+
+ .navbar-grid{
+  margin: 20px;
+  display: flex;
+ 
+
+} 
+
+a{
+  text-decoration: none;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.53);
+
+  &:hover{
+    color: black;
+    text-decoration: underline;
+  }
+}
+li{
+  list-style: none;
+}
+nav{
+  display: flex;
+  justify-content: right;
+
+}
+button{
+  cursor: pointer;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin: auto;
+  margin: 0 80px;
+  
+}
+.simple h3{
+ font-weight: 400;
+ font-size: 22px;
+}
+.simple p{
+  font-size: 8px;
+  letter-spacing: 2px;
+}
+.simple{
+  text-align: center;
+}
+.icon-1 img{
+  width: 20px;
+}
+.icon-1{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin: auto;
+  margin: 0 5px;
+}
+
+.icon-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  
+}
+
+.hamburger-menu img{
+  width: 40px;
+  border: none;
+  height: 40px;
+}
+
+.hamburger-menu{
+  display: none;
+  height: 0px;
+  border: none;
+  top: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown button styling */
+/*.dropdown-btn {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.603);
+  padding: 3px 25px;
+  font-size: 11px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-btn:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* Dropdown content (hidden by default) */
+/*.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+/* Dropdown links */
+/*.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content when hovering over the dropdown container */
+/*.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+
+
+
+
+
+
+
+/* Dropdown button */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.625);
+  padding: 3px 22px;
+  font-size: 11px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-btn:hover {
+  /* background-color: #ffffff; */
+  text-decoration: underline;
+  color: #000;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fffffff8;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  color: rgba(0, 0, 0, 0.649);
+  padding: 12px 16px;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown content when hovering over the dropdown */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+@media screen and (max-width: 985px) {
+  .dropdown-content{
+    margin: 2 10px;
+    margin-top: -35px;
+   width: 40%;
+  }
+  .dropdown-btn {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 985px) {
+  .dropdown-content a{
+    font-size: 14px;
+  }
+  .dropdown-btn {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .dropdown-content{
+    margin-top: -60px;
+  }
+  .dropdown-content a{
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .dropdown-btn{
+    margin-left: 100px;
+  }
+  .dropdown-content{
+    width: 50%;
+    margin-top: -80px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:998px) {
+  .menu-web{
+    display: none;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: auto;
+  }
+  a{
+    color: rgba(0, 0, 0, 0.638);
+    font-size: 18px;
+
+    &:hover{
+      color: rgb(255, 72, 0);
+    }
+  }
+
+  .hamburger-menu{
+    display: inline-block;
+   text-align: end;
+   font-size: 3rem;
+   color: black;
+  }
+  .menu-mobile{
+    position: absolute;
+    top: 7rem;
+    left: -79;
+    right: -50px;
+    background-color: #ffffff;
+    width: 90%;
+    height: 344px;
+   
+  }
+  
+  nav ul{
+    display: flex;
+     flex-direction: column;
+     text-align: center;
+     gap: 5px;
+  }
+  
+  .menu-mobile ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+
+    & li:first-child{
+      margin-top: 1.2rem;
+    }
+
+    & li:last-child{
+      margin-bottom: 1.2rem;
+    }
+  }
+  
+}
+@media screen and (max-width:415px) {
+  nav ul li{
+    margin-left: 100px;
+     
+  }
+}
+
+
+/* @navbar complete */
+
+
+/* Footer Styles */
+.footer {
+  background-color: #ffffff49;
+  color: rgba(0, 0, 0, 0.463);
+  padding: 60px 0;
+  height: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 10px;
+  min-width: 250px;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: black;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-section {
+      text-align: start;
+      padding: 20px 0;
+  }
+}
+
+
+
+.icon-f{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.icon-f li a i{
+  color: black;
+  font-size: 15px;
+}
+
+
+
+/* .language-b{
+  
+} */
+.language-b button{
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.581);
+
+  &:hover{
+    border: 2px solid rgba(133, 134, 74, 0.581);
+  }
+}
+
+
+.img-pay img{
+  width: 20px;
+  padding: 10px;
+}
+
+
+.img-tex{
+  display: flex;
+  justify-content: space-between;
+padding: 39px;
+gap: 50px;
+}
+
+@media screen and (max-width:500px) {
+  .img-tex{
+   display: grid;
+   grid-template-columns: auto;
+    grid-column-gap: 10px;
+    margin-top:30px;
+    gap: 20px;
+  }
+}
+
+.refund-end ul{
+  display: flex;
+  justify-content: left;
+  padding: 0 20px;
+  gap: 20px;
+}
+.refund-end ul li{
+  font-size: 12px;
+}
+
+@media screen and (max-width:715px) {
+  .refund-end ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+     grid-column-gap: 10px;
+     margin-top:30px;
+     gap: 20px;
+  }
+}
+@media screen and (max-width:500px) {
+  .refund-end ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+     grid-column-gap: 10px;
+     margin-top:30px;
+     gap: 20px;
+  }
+}
+@media screen and (max-width:400px) {
+  .refund-end ul{
+    display: grid;
+    grid-template-columns: auto auto;
+     grid-column-gap: 10px;
+     margin-top:30px;
+     gap: 20px;
+  }
+}
